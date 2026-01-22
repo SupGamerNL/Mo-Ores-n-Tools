@@ -1,28 +1,85 @@
-body {
-  font-family: Arial, sans-serif;
-  background: #1a1a1a;
-  color: #f2f2f2;
-  margin: 0;
-  padding: 0;
+/* Base Colors */
+:root {
+  --bg-dark: #1a1a1a;
+  --text-light: #f0f0f0;
+  --text-grey: #b0b0b0;
+  --accent-metal: #b87333;
+  --accent-ore: #4abdac;
+  --highlight: #f4d03f;
 }
 
-header {
-  background: #2e2e2e;
-  padding: 2rem;
-  text-align: center;
+/* Global */
+body {
+  margin: 0;
+  font-family: 'Open Sans', Arial, sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  line-height: 1.6;
+  padding-bottom: 2rem;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: var(--highlight);
+  margin: 0.5rem 0;
 }
 
 h1 {
-  margin: 0;
-  font-size: 2.5rem;
-  color: #f9c74f;
+  font-size: 2.8rem;
+}
+
+header.hero {
+  background-color: var(--accent-metal);
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+header.hero p {
+  font-size: 1.2rem;
+  color: var(--text-light);
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: var(--accent-ore);
+  color: var(--bg-dark);
+  padding: 0.65rem 1.2rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: var(--highlight);
+  color: var(--bg-dark);
 }
 
 section {
-  padding: 2rem;
-  border-bottom: 1px solid #333;
+  padding: 2rem 1.5rem;
+  max-width: 900px;
+  margin: auto;
 }
 
 ul {
-  list-style: square;
+  list-style-type: square;
+  padding-left: 1.2rem;
+  color: var(--text-light);
+}
+
+.links-list li a {
+  color: var(--accent-ore);
+  text-decoration: none;
+}
+
+.links-list li a:hover {
+  color: var(--highlight);
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: var(--text-grey);
 }
