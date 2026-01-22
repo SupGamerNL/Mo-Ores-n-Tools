@@ -88,7 +88,7 @@ Free to use, modify, and include in modpacks with proper credit.
 ---
 
 ## 🧑‍💻 Author
-**Developed by SupGamer NL**  
+**Developed by SupGamer NL / SupG_NL**  
 Focused on expanding Minecraft’s survival experience—one ore at a time.
 
 ---
