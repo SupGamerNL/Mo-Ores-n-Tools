@@ -7,7 +7,7 @@ Explore unique minerals, craft meaningful tools, and enhance survival gameplay!
 
 ## 🌟 Features
 
-- 🪨 Dozens of new ores with unique placements and worldgen :contentReference[oaicite:1]{index=1}  
+- 🪨 Dozens of new ores with unique placements and worldgen 
 - ⚒️ Tool tiers and armor progression  
 - 🧱 Decorative stone, ore blocks, and crafted materials  
 - ⛏️ Balanced for survival and discovery  
