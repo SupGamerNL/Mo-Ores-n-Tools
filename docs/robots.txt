@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://supgamernl.github.io/Mo-Ores-n-Tools/sitemap.xml
