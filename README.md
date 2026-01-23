@@ -43,7 +43,7 @@ Get the latest versions here:
   https://github.com/SupGamerNL/Mo-Ores-n-Tools/releases
 
 - 👉 **CurseForge Project Page**  
-  https://www.curseforge.com/minecraft/mc-mods/mo-ores-and-tools-mod
+  https://www.curseforge.com/minecraft/mc-mods/moat
 
 ---
 
